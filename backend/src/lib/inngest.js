@@ -39,7 +39,7 @@ const deleteUserFromDB = inngest.createFunction(
 )
 
 
-export const functions ={
+export const functions =[
     syncUser, 
     deleteUserFromDB
-}
+]
